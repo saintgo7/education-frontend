@@ -1,0 +1,11 @@
+import { json, type LoaderFunctionArgs } from '@remix-run/node';
+import { useLoaderData } from '@remix-run/react';
+
+export async function loader({ params }: LoaderFunctionArgs) {
+  return json({ id: 49, message: 'Remix Example 49' });
+}
+
+export default function RemixRoute49() {
+  const data = useLoaderData<typeof loader>();
+  return <div><h1>Remix Example 49</h1><p>{data.message}</p></div>;
+}
