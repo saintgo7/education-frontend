@@ -1,0 +1,25 @@
+{
+  "name": "css-modern",
+  "version": "1.0.0",
+  "description": "최신 CSS 기술과 레이아웃 시스템",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "stylelint \"src/**/*.{css,scss}\"",
+    "format": "prettier --write \"src/**/*.{css,scss,html}\""
+  },
+  "devDependencies": {
+    "vite": "^5.0.8",
+    "sass": "^1.69.5",
+    "postcss": "^8.4.32",
+    "autoprefixer": "^10.4.16",
+    "stylelint": "^16.1.0",
+    "stylelint-config-standard": "^36.0.0",
+    "prettier": "^3.1.1"
+  },
+  "keywords": ["css", "grid", "flexbox", "container-queries", "modern-css"],
+  "author": "Your Name",
+  "license": "MIT"
+}

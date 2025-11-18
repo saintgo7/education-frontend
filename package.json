@@ -1,0 +1,43 @@
+{
+  "name": "education-frontend",
+  "version": "1.0.0",
+  "description": "프론트엔드 교육을 위한 종합 학습 저장소",
+  "private": true,
+  "scripts": {
+    "install:all": "pnpm install --recursive",
+    "dev:react": "cd react-fundamentals && pnpm dev",
+    "dev:next": "cd nextjs-fullstack && pnpm dev",
+    "dev:vue": "cd vue-composition && pnpm dev",
+    "dev:angular": "cd angular-enterprise && pnpm start",
+    "dev:svelte": "cd svelte-kit && pnpm dev",
+    "dev:vanilla": "cd vanilla-js-patterns && pnpm dev",
+    "dev:ts": "cd typescript-advanced && pnpm dev",
+    "dev:css": "cd css-modern && pnpm dev",
+    "dev:tailwind": "cd tailwind-components && pnpm dev",
+    "dev:perf": "cd web-performance && pnpm dev",
+    "build:all": "pnpm --recursive run build",
+    "test:all": "pnpm --recursive run test",
+    "lint:all": "pnpm --recursive run lint",
+    "format:all": "pnpm --recursive run format",
+    "docker:up": "docker-compose up",
+    "docker:down": "docker-compose down",
+    "docker:build": "docker-compose build"
+  },
+  "keywords": [
+    "frontend",
+    "education",
+    "react",
+    "vue",
+    "angular",
+    "svelte",
+    "nextjs",
+    "typescript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "packageManager": "pnpm@8.0.0"
+}

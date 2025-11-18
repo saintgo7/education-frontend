@@ -1,0 +1,152 @@
+version: '3.8'
+
+services:
+  # React Fundamentals
+  react-fundamentals:
+    build:
+      context: ./react-fundamentals
+      dockerfile: Dockerfile
+    container_name: react-fundamentals
+    ports:
+      - "3000:80"
+    restart: unless-stopped
+    networks:
+      - frontend-network
+
+  # Next.js Fullstack
+  nextjs-fullstack:
+    build:
+      context: ./nextjs-fullstack
+      dockerfile: Dockerfile
+    container_name: nextjs-fullstack
+    ports:
+      - "3001:3000"
+    environment:
+      - NODE_ENV=production
+      - DATABASE_URL=postgresql://postgres:password@postgres:5432/nextjs_db
+      - NEXTAUTH_URL=http://localhost:3001
+      - NEXTAUTH_SECRET=your-secret-key
+    depends_on:
+      - postgres
+    restart: unless-stopped
+    networks:
+      - frontend-network
+
+  # Vue Composition
+  vue-composition:
+    build:
+      context: ./vue-composition
+      dockerfile: Dockerfile
+    container_name: vue-composition
+    ports:
+      - "3002:80"
+    restart: unless-stopped
+    networks:
+      - frontend-network
+
+  # Angular Enterprise
+  angular-enterprise:
+    build:
+      context: ./angular-enterprise
+      dockerfile: Dockerfile
+    container_name: angular-enterprise
+    ports:
+      - "3003:80"
+    restart: unless-stopped
+    networks:
+      - frontend-network
+
+  # SvelteKit
+  svelte-kit:
+    build:
+      context: ./svelte-kit
+      dockerfile: Dockerfile
+    container_name: svelte-kit
+    ports:
+      - "3004:3000"
+    restart: unless-stopped
+    networks:
+      - frontend-network
+
+  # Vanilla JS Patterns
+  vanilla-js:
+    build:
+      context: ./vanilla-js-patterns
+      dockerfile: Dockerfile
+    container_name: vanilla-js
+    ports:
+      - "3005:80"
+    restart: unless-stopped
+    networks:
+      - frontend-network
+
+  # TypeScript Advanced
+  typescript-advanced:
+    build:
+      context: ./typescript-advanced
+      dockerfile: Dockerfile
+    container_name: typescript-advanced
+    ports:
+      - "3006:3000"
+    restart: unless-stopped
+    networks:
+      - frontend-network
+
+  # CSS Modern
+  css-modern:
+    build:
+      context: ./css-modern
+      dockerfile: Dockerfile
+    container_name: css-modern
+    ports:
+      - "3007:80"
+    restart: unless-stopped
+    networks:
+      - frontend-network
+
+  # Tailwind Components
+  tailwind-components:
+    build:
+      context: ./tailwind-components
+      dockerfile: Dockerfile
+    container_name: tailwind-components
+    ports:
+      - "3008:80"
+    restart: unless-stopped
+    networks:
+      - frontend-network
+
+  # Web Performance
+  web-performance:
+    build:
+      context: ./web-performance
+      dockerfile: Dockerfile
+    container_name: web-performance
+    ports:
+      - "3009:80"
+    restart: unless-stopped
+    networks:
+      - frontend-network
+
+  # PostgreSQL Database (for Next.js project)
+  postgres:
+    image: postgres:16-alpine
+    container_name: education-postgres
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_DB=nextjs_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    restart: unless-stopped
+    networks:
+      - frontend-network
+
+volumes:
+  postgres-data:
+
+networks:
+  frontend-network:
+    driver: bridge

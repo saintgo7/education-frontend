@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  react-fundamentals:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: react-fundamentals
+    ports:
+      - "3000:80"
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
+
+  # Development service
+  react-fundamentals-dev:
+    image: node:18-alpine
+    container_name: react-fundamentals-dev
+    working_dir: /app
+    volumes:
+      - .:/app
+      - /app/node_modules
+    ports:
+      - "5173:5173"
+    command: sh -c "npm install -g pnpm && pnpm install && pnpm dev"
+    environment:
+      - NODE_ENV=development
+    stdin_open: true
+    tty: true

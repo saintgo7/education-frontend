@@ -1,0 +1,35 @@
+{
+  "name": "svelte-kit",
+  "version": "1.0.0",
+  "description": "SvelteKit을 활용한 SSR 애플리케이션",
+  "type": "module",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:unit": "vitest",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+    "lint": "prettier --check . && eslint .",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@sveltejs/kit": "^2.0.0",
+    "svelte": "^4.2.8"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "^3.0.0",
+    "@sveltejs/vite-plugin-svelte": "^3.0.0",
+    "svelte-check": "^3.6.2",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.8",
+    "vitest": "^1.1.0",
+    "eslint": "^8.56.0",
+    "prettier": "^3.1.1",
+    "prettier-plugin-svelte": "^3.1.2"
+  },
+  "keywords": ["sveltekit", "svelte", "ssr", "typescript"],
+  "author": "Your Name",
+  "license": "MIT"
+}
