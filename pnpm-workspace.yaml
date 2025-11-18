@@ -1,0 +1,48 @@
+packages:
+  # Core Frameworks
+  - 'react-fundamentals'
+  - 'nextjs-fullstack'
+  - 'vue-composition'
+  - 'angular-enterprise'
+  - 'svelte-kit'
+
+  # Language & Styling
+  - 'typescript-advanced'
+  - 'css-modern'
+  - 'tailwind-components'
+
+  # Performance & Vanilla
+  - 'web-performance'
+  - 'vanilla-js-patterns'
+
+  # Cross-Platform
+  - 'react-native-mobile'
+  - 'electron-desktop'
+
+  # Full-Stack Frameworks
+  - 'remix-fullstack'
+  - 'astro-static'
+  - 'nuxtjs-fullstack'
+  - 'gatsby-static'
+
+  # Modern Reactive
+  - 'solidjs-reactive'
+  - 'qwik-resumable'
+  - 'preact-lightweight'
+
+  # Web Components & Minimal
+  - 'lit-webcomponents'
+  - 'alpinejs-minimal'
+  - 'stimulus-html'
+  - 'htmx-hypermedia'
+  - 'webcomponents-vanilla'
+
+  # Special Purpose
+  - 'react-three-fiber'
+  - 'flutter-web'
+  - 'blazor-dotnet'
+
+  # Enterprise & Admin
+  - 'emberjs-enterprise'
+  - 'react-admin-panel'
+  - 'refine-enterprise'
