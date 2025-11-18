@@ -1,0 +1,7 @@
+/* ${file} Responsive */
+
+@media (min-width: 768px) {
+  .${file} {
+    display: block;
+  }
+}

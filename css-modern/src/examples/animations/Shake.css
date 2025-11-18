@@ -1,0 +1,6 @@
+/* ${file} Animation */
+
+@keyframes ${file} {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
