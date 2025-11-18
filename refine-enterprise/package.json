@@ -1,0 +1,17 @@
+{
+  "name": "refine-enterprise",
+  "version": "1.0.0",
+  "description": "Refine 엔터프라이즈 React 앱 개발 교육 프로젝트",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@refinedev/core": "^4.45.0",
+    "@refinedev/react-router-v6": "^4.5.0",
+    "@refinedev/simple-rest": "^4.5.0",
+    "@refinedev/antd": "^5.37.0",
+    "react": "^18.2.0",
+    "antd": "^5.12.0"
+  }
+}

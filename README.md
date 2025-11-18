@@ -3,10 +3,11 @@
 [![CI/CD](https://github.com/your-username/education-frontend/workflows/CI/badge.svg)](https://github.com/your-username/education-frontend/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> 현대적인 프론트엔드 개발을 위한 종합 학습 저장소입니다. **20개의 실전 프로젝트**와 **850+ 예제**를 통해 React, Vue, Angular, Svelte, React Native, Electron 등 모든 주요 프레임워크와 플랫폼을 학습할 수 있습니다.
+> 현대적인 프론트엔드 개발을 위한 종합 학습 저장소입니다. **30개의 실전 프로젝트**와 **950+ 예제**를 통해 모든 주요 프레임워크와 플랫폼을 학습할 수 있습니다.
 
-## 🎉 **NEW! 850+ 예제 & 10개 새로운 플랫폼 추가**
+## 🎉 **NEW! 950+ 예제 & 20개 새로운 플랫폼**
 
+### 첫 번째 릴리스 (10개 플랫폼)
 - 📱 **React Native** - 모바일 앱 개발 (50+ 예제)
 - 🖥️ **Electron** - 데스크톱 앱 (45+ 예제)
 - 🎭 **Remix** - 풀스택 프레임워크 (40+ 예제)
@@ -17,6 +18,18 @@
 - 🔥 **Lit** - 웹 컴포넌트 (40+ 예제)
 - 🏔️ **Alpine.js** - 미니멀 프레임워크 (35+ 예제)
 - 🎮 **React Three Fiber** - 3D 그래픽 (50+ 예제)
+
+### 🆕 두 번째 릴리스 (10개 플랫폼 추가!)
+- 💚 **Nuxt.js** - Vue 풀스택 프레임워크 (10+ 예제)
+- 🔷 **Gatsby** - React 정적 사이트 생성기 (10+ 예제)
+- 🔶 **Ember.js** - 엔터프라이즈 프레임워크 (10+ 예제)
+- ⚙️ **Stimulus** - HTML-first JavaScript (10+ 예제)
+- 🌐 **htmx** - 하이퍼미디어 기반 (10+ 예제)
+- 🧩 **Web Components** - 순수 웹 컴포넌트 (10+ 예제)
+- 🦋 **Flutter Web** - Dart 기반 웹 앱 (10+ 예제)
+- 💜 **Blazor** - C# 웹 프레임워크 (10+ 예제)
+- 📊 **React Admin** - 관리자 패널 (10+ 예제)
+- 🏢 **Refine** - 엔터프라이즈 React (10+ 예제)
 
 ## 📚 목차
 
@@ -422,6 +435,166 @@ React로 만드는 3D 그래픽
 
 ---
 
+### 21. [Nuxt.js Fullstack](./nuxtjs-fullstack/) 💚
+**난이도**: ⭐⭐⭐⭐☆ | **학습 시간**: 2주 | **예제**: 10+
+
+Vue 기반 풀스택 프레임워크
+
+- 💚 Vue 3 기반
+- 🗂️ 파일 기반 라우팅
+- 🔄 SSR/SSG
+- 📡 Server Routes
+- 🎨 Auto-imports
+- 🏪 Pinia 통합
+
+**기술 스택**: Nuxt 3, Vue 3, Pinia, TypeScript
+
+---
+
+### 22. [Gatsby Static](./gatsby-static/) 🔷
+**난이도**: ⭐⭐⭐☆☆ | **학습 시간**: 2주 | **예제**: 10+
+
+React 기반 정적 사이트 생성기
+
+- 🔷 GraphQL 데이터
+- 🖼️ 이미지 최적화
+- 📝 MDX 지원
+- ⚡ 빠른 성능
+- 🔌 플러그인 생태계
+- 🚀 JAMstack
+
+**기술 스택**: Gatsby 5, React 18, GraphQL
+
+---
+
+### 23. [Ember.js Enterprise](./emberjs-enterprise/) 🔶
+**난이도**: ⭐⭐⭐⭐⭐ | **학습 시간**: 2주 | **예제**: 10+
+
+엔터프라이즈 JavaScript 프레임워크
+
+- 🔶 Convention over Configuration
+- 🎯 Ember Data
+- 🛣️ 강력한 라우팅
+- 🧪 내장 테스트
+- 📦 Ember CLI
+- 🏢 엔터프라이즈급
+
+**기술 스택**: Ember.js 5, Glimmer, TypeScript
+
+---
+
+### 24. [Stimulus](./stimulus-html/) ⚙️
+**난이도**: ⭐⭐☆☆☆ | **학습 시간**: 1주 | **예제**: 10+
+
+HTML-first JavaScript 프레임워크
+
+- ⚙️ HTML 중심
+- 🎯 간단한 컨트롤러
+- 🔄 Hotwire 통합
+- 📝 최소한의 JavaScript
+- 🚀 빠른 학습 곡선
+- 💡 점진적 향상
+
+**기술 스택**: Stimulus 3, Hotwire
+
+---
+
+### 25. [htmx](./htmx-hypermedia/) 🌐
+**난이도**: ⭐⭐☆☆☆ | **학습 시간**: 1주 | **예제**: 10+
+
+하이퍼미디어 기반 웹 개발
+
+- 🌐 HTML 속성 기반
+- 🔄 AJAX 요청
+- 🎯 최소 JavaScript
+- 📡 WebSocket 지원
+- ⚡ 가벼움 (14KB)
+- 💡 간단한 구조
+
+**기술 스택**: htmx 1.9, HTML
+
+---
+
+### 26. [Web Components Vanilla](./webcomponents-vanilla/) 🧩
+**난이도**: ⭐⭐⭐☆☆ | **학습 시간**: 1주 | **예제**: 10+
+
+순수 웹 컴포넌트
+
+- 🧩 웹 표준 API
+- 🌐 프레임워크 독립적
+- 🎯 Shadow DOM
+- 📦 재사용 가능
+- 🔄 Custom Elements
+- 💡 네이티브 지원
+
+**기술 스택**: Web Components API, Vanilla JS
+
+---
+
+### 27. [Flutter Web](./flutter-web/) 🦋
+**난이도**: ⭐⭐⭐⭐☆ | **학습 시간**: 2주 | **예제**: 10+
+
+Dart 기반 웹 앱
+
+- 🦋 Flutter 프레임워크
+- 🎨 Material Design
+- 🔄 Hot Reload
+- 📱 모바일 코드 재사용
+- ⚡ 고성능 렌더링
+- 🎯 Dart 언어
+
+**기술 스택**: Flutter 3, Dart, Material
+
+---
+
+### 28. [Blazor](./blazor-dotnet/) 💜
+**난이도**: ⭐⭐⭐⭐☆ | **학습 시간**: 2주 | **예제**: 10+
+
+C# 웹 프레임워크
+
+- 💜 C# & .NET
+- 🔄 WebAssembly
+- 🎯 컴포넌트 기반
+- 📡 SignalR 통합
+- 🔌 JavaScript Interop
+- 🏢 엔터프라이즈급
+
+**기술 스택**: Blazor WebAssembly, .NET 8, C#
+
+---
+
+### 29. [React Admin](./react-admin-panel/) 📊
+**난이도**: ⭐⭐⭐☆☆ | **학습 시간**: 1주 | **예제**: 10+
+
+관리자 패널 프레임워크
+
+- 📊 즉시 사용 가능한 CRUD
+- 🎨 Material-UI
+- 🔌 데이터 프로바이더
+- 🔐 인증 시스템
+- 📱 반응형 UI
+- 🎯 빠른 개발
+
+**기술 스택**: React Admin 4, React 18, Material-UI
+
+---
+
+### 30. [Refine](./refine-enterprise/) 🏢
+**난이도**: ⭐⭐⭐⭐☆ | **학습 시간**: 2주 | **예제**: 10+
+
+엔터프라이즈 React 프레임워크
+
+- 🏢 엔터프라이즈 기능
+- 🔌 헤드리스 아키텍처
+- 🎯 타입 안전
+- 📡 실시간 데이터
+- 🔐 접근 제어
+- 📊 감사 로그
+
+**기술 스택**: Refine 4, React 18, Ant Design
+
+---
+
 ## 📊 **프로젝트 요약 통계**
 
 | 플랫폼 | 난이도 | 예제 수 | 학습 시간 |
@@ -446,7 +619,17 @@ React로 만드는 3D 그래픽
 | Lit | ⭐⭐⭐ | 40+ | 2주 |
 | Alpine.js | ⭐ | 35+ | 1주 |
 | React Three Fiber | ⭐⭐⭐⭐⭐ | 50+ | 4주 |
-| **총합** | | **850+** | **44-58주** |
+| Nuxt.js | ⭐⭐⭐⭐ | 10+ | 2주 |
+| Gatsby | ⭐⭐⭐ | 10+ | 2주 |
+| Ember.js | ⭐⭐⭐⭐⭐ | 10+ | 2주 |
+| Stimulus | ⭐⭐ | 10+ | 1주 |
+| htmx | ⭐⭐ | 10+ | 1주 |
+| Web Components | ⭐⭐⭐ | 10+ | 1주 |
+| Flutter Web | ⭐⭐⭐⭐ | 10+ | 2주 |
+| Blazor | ⭐⭐⭐⭐ | 10+ | 2주 |
+| React Admin | ⭐⭐⭐ | 10+ | 1주 |
+| Refine | ⭐⭐⭐⭐ | 10+ | 2주 |
+| **총합 (30개)** | | **950+** | **60-75주** |
 
 ---
 

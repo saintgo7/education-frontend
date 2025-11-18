@@ -1,0 +1,17 @@
+{
+  "name": "gatsby-static",
+  "version": "1.0.0",
+  "description": "Gatsby 정적 사이트 생성 교육 프로젝트 - React 기반 SSG",
+  "scripts": {
+    "dev": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve"
+  },
+  "dependencies": {
+    "gatsby": "^5.13.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "gatsby-plugin-image": "^3.13.0",
+    "gatsby-source-filesystem": "^5.13.0"
+  }
+}

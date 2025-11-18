@@ -1,0 +1,15 @@
+name: flutter_web
+description: Flutter Web 앱 개발 교육 프로젝트
+version: 1.0.0
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

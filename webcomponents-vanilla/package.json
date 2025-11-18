@@ -1,0 +1,9 @@
+{
+  "name": "webcomponents-vanilla",
+  "version": "1.0.0",
+  "description": "순수 Web Components 교육 프로젝트 - 프레임워크 없이",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  }
+}

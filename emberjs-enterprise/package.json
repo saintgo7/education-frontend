@@ -1,0 +1,13 @@
+{
+  "name": "emberjs-enterprise",
+  "version": "1.0.0",
+  "description": "Ember.js 엔터프라이즈 앱 개발 교육 프로젝트",
+  "scripts": {
+    "start": "ember serve",
+    "build": "ember build"
+  },
+  "dependencies": {
+    "ember-cli": "^5.5.0",
+    "ember-source": "^5.5.0"
+  }
+}

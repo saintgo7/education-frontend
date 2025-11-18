@@ -1,0 +1,8 @@
+{
+  "name": "htmx-hypermedia",
+  "version": "1.0.0",
+  "description": "htmx 하이퍼미디어 기반 웹 개발 교육 프로젝트",
+  "dependencies": {
+    "htmx.org": "^1.9.10"
+  }
+}
