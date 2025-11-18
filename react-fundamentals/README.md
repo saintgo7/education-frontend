@@ -32,6 +32,70 @@
 - 💾 **로컬 스토리지**: 데이터 영속성
 - 🎨 **반응형 디자인**: 모바일 퍼스트 접근
 
+## 📦 **50+ 실전 예제**
+
+### 1. UI 컴포넌트 (12개)
+- ✅ Button - 다양한 스타일의 버튼
+- ✅ Input - 제어/비제어 입력
+- ✅ Modal - 포털 기반 모달
+- ✅ Dropdown - 드롭다운 메뉴
+- ✅ Tabs - 탭 네비게이션
+- ✅ Accordion - 아코디언
+- ✅ Card - 카드 컴포넌트
+- ✅ Badge - 뱃지/라벨
+- ✅ Avatar - 아바타/프로필 이미지
+- ✅ Tooltip - 툴팁
+- ✅ Alert - 알림 메시지
+- ✅ Spinner - 로딩 스피너
+
+### 2. 폼 & 검증 (8개)
+- ✅ FormValidation - 폼 검증
+- ✅ CustomForm - 커스텀 폼 훅
+- ✅ FileUpload - 파일 업로드
+- ✅ MultiStepForm - 다단계 폼
+- ✅ AutoComplete - 자동완성
+- ✅ DatePicker - 날짜 선택
+- ✅ RichTextEditor - 리치 텍스트 에디터
+- ✅ FormWizard - 폼 마법사
+
+### 3. 커스텀 훅 (10개)
+- ✅ useDebounce - 디바운싱
+- ✅ useLocalStorage - 로컬 스토리지
+- ✅ useToggle - 토글 상태
+- ✅ useFetch - 데이터 페칭
+- ✅ useIntersectionObserver - 교차 관찰
+- ✅ useMediaQuery - 미디어 쿼리
+- ✅ useClickOutside - 외부 클릭 감지
+- ✅ useKeyPress - 키보드 이벤트
+- ✅ usePrevious - 이전 값 추적
+- ✅ useTimeout - 타임아웃 관리
+
+### 4. 애니메이션 (6개)
+- ✅ FadeIn - 페이드 인 효과
+- ✅ SlideIn - 슬라이드 효과
+- ✅ AnimatedList - 애니메이션 리스트
+- ✅ PageTransition - 페이지 전환
+- ✅ SkeletonLoader - 스켈레톤 로더
+- ✅ ProgressBar - 진행률 표시
+
+### 5. 성능 최적화 (8개)
+- ✅ React.memo - 메모이제이션
+- ✅ useMemo - 값 메모이제이션
+- ✅ useCallback - 함수 메모이제이션
+- ✅ LazyLoading - 지연 로딩
+- ✅ VirtualList - 가상 리스트
+- ✅ CodeSplitting - 코드 스플리팅
+- ✅ InfiniteScroll - 무한 스크롤
+- ✅ ImageLazyLoad - 이미지 지연 로딩
+
+### 6. 디자인 패턴 (6개)
+- ✅ CompoundComponents - 복합 컴포넌트
+- ✅ RenderProps - 렌더 Props
+- ✅ HOC - 고차 컴포넌트
+- ✅ ControlledUncontrolled - 제어/비제어
+- ✅ ContainerPresentational - 컨테이너/프레젠테이션
+- ✅ CustomHooks - 커스텀 훅 패턴
+
 ## 🎓 학습 목표
 
 이 프로젝트를 완료하면 다음을 할 수 있습니다:

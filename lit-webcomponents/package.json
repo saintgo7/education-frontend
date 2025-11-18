@@ -1,0 +1,21 @@
+{
+  "name": "lit-webcomponents",
+  "version": "1.0.0",
+  "description": "Lit 웹 컴포넌트 개발 교육 프로젝트 - 표준 웹 컴포넌트",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "lit": "^3.1.0",
+    "@lit/react": "^1.0.3",
+    "@lit/context": "^1.1.0",
+    "@lit/task": "^1.0.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.11",
+    "typescript": "^5.3.3",
+    "vitest": "^1.1.3"
+  }
+}

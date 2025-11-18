@@ -1,0 +1,20 @@
+{
+  "name": "alpinejs-minimal",
+  "version": "1.0.0",
+  "description": "Alpine.js 미니멀 앱 개발 교육 프로젝트 - 가장 가벼운 프레임워크",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "alpinejs": "^3.13.0",
+    "@alpinejs/persist": "^3.13.0",
+    "@alpinejs/focus": "^3.13.0",
+    "@alpinejs/collapse": "^3.13.0",
+    "@alpinejs/intersect": "^3.13.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.11"
+  }
+}

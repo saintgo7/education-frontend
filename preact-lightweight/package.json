@@ -1,0 +1,21 @@
+{
+  "name": "preact-lightweight",
+  "version": "1.0.0",
+  "description": "Preact 경량 앱 개발 교육 프로젝트 - 3KB의 React 대안",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "preact": "^10.19.0",
+    "preact-router": "^4.1.2",
+    "preact-render-to-string": "^6.3.1"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.6.0",
+    "vite": "^5.0.11",
+    "typescript": "^5.3.3",
+    "vitest": "^1.1.3"
+  }
+}

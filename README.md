@@ -3,7 +3,20 @@
 [![CI/CD](https://github.com/your-username/education-frontend/workflows/CI/badge.svg)](https://github.com/your-username/education-frontend/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-> 현대적인 프론트엔드 개발을 위한 종합 학습 저장소입니다. 10개의 실전 프로젝트를 통해 React, Vue, Angular, Svelte 등 주요 프레임워크와 모던 웹 개발 기술을 학습할 수 있습니다.
+> 현대적인 프론트엔드 개발을 위한 종합 학습 저장소입니다. **20개의 실전 프로젝트**와 **850+ 예제**를 통해 React, Vue, Angular, Svelte, React Native, Electron 등 모든 주요 프레임워크와 플랫폼을 학습할 수 있습니다.
+
+## 🎉 **NEW! 850+ 예제 & 10개 새로운 플랫폼 추가**
+
+- 📱 **React Native** - 모바일 앱 개발 (50+ 예제)
+- 🖥️ **Electron** - 데스크톱 앱 (45+ 예제)
+- 🎭 **Remix** - 풀스택 프레임워크 (40+ 예제)
+- 🚀 **Astro** - 정적 사이트 생성 (40+ 예제)
+- ⚡ **Solid.js** - 진정한 리액티비티 (45+ 예제)
+- ⚡ **Qwik** - Resumable 아키텍처 (42+ 예제)
+- 🪶 **Preact** - 경량 React 대안 (38+ 예제)
+- 🔥 **Lit** - 웹 컴포넌트 (40+ 예제)
+- 🏔️ **Alpine.js** - 미니멀 프레임워크 (35+ 예제)
+- 🎮 **React Three Fiber** - 3D 그래픽 (50+ 예제)
 
 ## 📚 목차
 
@@ -244,6 +257,196 @@ SvelteKit을 활용한 SSR 애플리케이션
 - 🎪 Bundle 분석과 최적화
 
 **기술 스택**: Webpack, Lighthouse, Web Vitals, Workbox
+
+---
+
+## 🆕 **새로운 플랫폼 (10개 추가!)**
+
+### 11. [React Native Mobile](./react-native-mobile/) 📱
+**난이도**: ⭐⭐⭐⭐☆ | **학습 시간**: 3-4주 | **예제**: 50+
+
+크로스 플랫폼 모바일 앱 개발
+
+- 📱 iOS/Android 네이티브 앱
+- 🎨 네이티브 UI 컴포넌트
+- 🗺️ React Navigation
+- 💾 AsyncStorage & 오프라인 지원
+- 📸 카메라, 위치 등 네이티브 API
+- ⚡ Reanimated 애니메이션
+
+**기술 스택**: React Native, Expo, TypeScript, Zustand
+
+---
+
+### 12. [Electron Desktop](./electron-desktop/) 🖥️
+**난이도**: ⭐⭐⭐⭐☆ | **학습 시간**: 3주 | **예제**: 45+
+
+크로스 플랫폼 데스크톱 앱 개발
+
+- 🖥️ Windows/macOS/Linux 지원
+- 🔌 IPC 통신 (Main ↔ Renderer)
+- 📁 파일 시스템 접근
+- 🔔 시스템 트레이 & 알림
+- 🔄 자동 업데이트
+- 🔒 보안 & 샌드박싱
+
+**기술 스택**: Electron, React, TypeScript, electron-builder
+
+---
+
+### 13. [Remix Fullstack](./remix-fullstack/) 🎭
+**난이도**: ⭐⭐⭐⭐☆ | **학습 시간**: 3주 | **예제**: 40+
+
+Remix를 활용한 풀스택 웹 앱
+
+- 🎭 Server/Client 모델
+- 📡 Loader & Action 패턴
+- 🔄 낙관적 UI
+- 📝 Form 처리
+- 🚀 Progressive Enhancement
+- 🎯 중첩 라우팅
+
+**기술 스택**: Remix, React, Prisma, TypeScript
+
+---
+
+### 14. [Astro Static](./astro-static/) 🚀
+**난이도**: ⭐⭐⭐☆☆ | **학습 시간**: 2주 | **예제**: 40+
+
+초고속 정적 사이트 생성
+
+- 🏝️ Islands Architecture
+- ⚡ 0KB JavaScript (기본)
+- 🔄 React/Vue/Svelte 통합
+- 📝 MDX 지원
+- 🎨 컴포넌트 컬렉션
+- 🚀 최적화된 빌드
+
+**기술 스택**: Astro, TypeScript, MDX
+
+---
+
+### 15. [Solid.js Reactive](./solidjs-reactive/) ⚡
+**난이도**: ⭐⭐⭐☆☆ | **학습 시간**: 2주 | **예제**: 45+
+
+진정한 리액티비티 시스템
+
+- ⚡ Fine-grained Reactivity
+- 📊 Signals & Effects
+- 🎯 No Virtual DOM
+- 🔄 Stores & Context
+- 🚀 뛰어난 성능
+- 📦 작은 번들 크기
+
+**기술 스택**: Solid.js, TypeScript, Vite
+
+---
+
+### 16. [Qwik Resumable](./qwik-resumable/) ⚡
+**난이도**: ⭐⭐⭐⭐☆ | **학습 시간**: 2-3주 | **예제**: 42+
+
+Resumable 아키텍처
+
+- ⚡ 0ms TTI (Time To Interactive)
+- 🔄 No Hydration
+- 📦 자동 코드 스플리팅
+- 🎯 On-demand JS
+- 🚀 Qwik City 라우터
+- 💡 Server$ 함수
+
+**기술 스택**: Qwik, TypeScript, Vite
+
+---
+
+### 17. [Preact Lightweight](./preact-lightweight/) 🪶
+**난이도**: ⭐⭐☆☆☆ | **학습 시간**: 1-2주 | **예제**: 38+
+
+3KB의 React 대안
+
+- 🪶 3KB 작은 크기
+- ⚛️ React 호환 API
+- 🚀 빠른 성능
+- 🔄 SSR 지원
+- 📦 React 라이브러리 호환
+- ⚡ 빠른 개발 속도
+
+**기술 스택**: Preact, TypeScript, Vite
+
+---
+
+### 18. [Lit Web Components](./lit-webcomponents/) 🔥
+**난이도**: ⭐⭐⭐☆☆ | **학습 시간**: 2주 | **예제**: 40+
+
+표준 웹 컴포넌트
+
+- 🔥 Web Standards 기반
+- 🎯 프레임워크 독립적
+- 🌐 Shadow DOM
+- ⚡ Reactive Properties
+- 🎨 Scoped Styles
+- 📦 재사용 가능
+
+**기술 스택**: Lit, TypeScript, Web Components
+
+---
+
+### 19. [Alpine.js Minimal](./alpinejs-minimal/) 🏔️
+**난이도**: ⭐☆☆☆☆ | **학습 시간**: 1주 | **예제**: 35+
+
+가장 가벼운 프레임워크
+
+- 🏔️ 15KB 크기
+- 📝 HTML에 직접 작성
+- 🎯 jQuery 대체
+- 🔧 빌드 과정 불필요
+- 🎨 Tailwind CSS 완벽 호환
+- ⚡ 즉시 사용 가능
+
+**기술 스택**: Alpine.js, HTML, Tailwind CSS
+
+---
+
+### 20. [React Three Fiber](./react-three-fiber/) 🎮
+**난이도**: ⭐⭐⭐⭐⭐ | **학습 시간**: 4주 | **예제**: 50+
+
+React로 만드는 3D 그래픽
+
+- 🎮 Three.js + React
+- 🎨 3D 씬 & 오브젝트
+- 💡 조명 & 카메라
+- 🎬 애니메이션
+- ⚙️ 물리 엔진 (Rapier)
+- 🌈 후처리 효과
+
+**기술 스택**: React Three Fiber, Three.js, TypeScript
+
+---
+
+## 📊 **프로젝트 요약 통계**
+
+| 플랫폼 | 난이도 | 예제 수 | 학습 시간 |
+|--------|---------|---------|-----------|
+| React | ⭐⭐ | 50+ | 2-3주 |
+| Next.js | ⭐⭐⭐⭐ | 40+ | 3-4주 |
+| Vue | ⭐⭐⭐ | 50+ | 2-3주 |
+| Angular | ⭐⭐⭐⭐⭐ | 40+ | 3-4주 |
+| Svelte | ⭐⭐⭐ | 40+ | 2-3주 |
+| TypeScript | ⭐⭐⭐⭐ | 50+ | 2-3주 |
+| Tailwind | ⭐⭐⭐ | 60+ | 2주 |
+| Performance | ⭐⭐⭐⭐ | 30+ | 2-3주 |
+| Vanilla JS | ⭐⭐⭐ | 50+ | 2주 |
+| CSS | ⭐⭐ | 25+ | 1-2주 |
+| React Native | ⭐⭐⭐⭐ | 50+ | 3-4주 |
+| Electron | ⭐⭐⭐⭐ | 45+ | 3주 |
+| Remix | ⭐⭐⭐⭐ | 40+ | 3주 |
+| Astro | ⭐⭐⭐ | 40+ | 2주 |
+| Solid.js | ⭐⭐⭐ | 45+ | 2주 |
+| Qwik | ⭐⭐⭐⭐ | 42+ | 2-3주 |
+| Preact | ⭐⭐ | 38+ | 1-2주 |
+| Lit | ⭐⭐⭐ | 40+ | 2주 |
+| Alpine.js | ⭐ | 35+ | 1주 |
+| React Three Fiber | ⭐⭐⭐⭐⭐ | 50+ | 4주 |
+| **총합** | | **850+** | **44-58주** |
 
 ---
 
